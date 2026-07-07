@@ -67,7 +67,7 @@ public class SecurityConfig {
 
         configuration.setAllowedOrigins(List.of(
             "http://localhost:3000",                             // Local React/Vue dev server
-            "https://gowtham2000gsmg6-source.github.io"             // Your GitHub Pages main domain
+            "https://gowtham2000gsmg6-source.github.io/"             // Your GitHub Pages main domain
         ));
 
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"));
