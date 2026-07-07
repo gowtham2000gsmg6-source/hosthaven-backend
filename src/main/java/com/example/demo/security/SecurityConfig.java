@@ -66,7 +66,8 @@ public class SecurityConfig {
         CorsConfiguration configuration = new CorsConfiguration();
 
         configuration.setAllowedOrigins(List.of(
-            "https://gowtham2000gsmg6-source.github.io/"   
+            "http://localhost:3000",                             // Local React/Vue dev server
+            "https://gowtham2000gsmg6-source.github.io"             // Your GitHub Pages main domain
         ));
 
         configuration.setAllowedMethods(List.of("GET", "POST", "PUT", "PATCH", "DELETE", "OPTIONS"));
